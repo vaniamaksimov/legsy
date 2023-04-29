@@ -5,6 +5,11 @@ from fastapi.testclient import TestClient
 from legsy.main import app
 
 
+pytest_plugins = [
+    'tests.fixtures.fixture_parser',
+]
+
+
 @pytest.fixture
 def application():
     return app
