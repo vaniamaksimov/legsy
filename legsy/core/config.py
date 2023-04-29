@@ -29,6 +29,9 @@ class Settings(BaseSettings):
             path=f'/{values.get("POSTGRES_DB") or ""}',
         )
 
+    MIN_STRING_LENGTH: int = 1
+    MAX_STRING_LENGTH: int = 255
+
     class Config:
         env_file = '.env'
 
