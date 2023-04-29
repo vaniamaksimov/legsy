@@ -11,7 +11,7 @@
 
 ## Установка и запуск проекта
 
-1. Клонирование репозитория: git@github.com:vaniamaksimov/legsy.git
+1. Клонирование репозитория: `git clone git@github.com:vaniamaksimov/legsy.git`
 
 # TODO По мере выполнения расписать запуск через Docker-compose
 
