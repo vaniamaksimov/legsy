@@ -1,0 +1,1 @@
+from .models import Color, Good, GoodColor, Size, GoodSize, Brand  # noqa
