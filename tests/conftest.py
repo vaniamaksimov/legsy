@@ -7,6 +7,7 @@ from legsy.main import app
 
 pytest_plugins = [
     'tests.fixtures.fixture_parser',
+    'tests.fixtures.fixture_wbschema',
 ]
 
 
