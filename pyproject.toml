@@ -35,3 +35,4 @@ python_functions = ["test_*",]
 pythonpath = [".", "legsy",]
 addopts = ["-vv", "-p", "no:cacheprovider", "--tb=line"]
 asyncio_mode = "auto"
+disable_test_id_escaping_and_forfeit_all_rights_to_community_support = "True"
