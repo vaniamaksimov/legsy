@@ -140,3 +140,6 @@ migrations/
 celerybeat-schedule.bak
 celerybeat-schedule.dat
 celerybeat-schedule.dir
+
+# sqlite db
+*.db
