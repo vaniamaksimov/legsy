@@ -7,3 +7,11 @@ class ParseError(HTTPException):
 
 class ResponseStatusError(HTTPException):
     """Статус ответа от сервера отличается от 200."""
+
+
+class NoGoodInDbError(HTTPException):
+    """Товар отсуствует в базе данных."""
+
+
+class DBError(HTTPException):
+    """Ошибка взаимодействия с базой данных."""

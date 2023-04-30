@@ -18,13 +18,11 @@ class SizeSchema(BaseModel):
     @validator('stock', pre=True)
     def summ_stocks(cls, value: list[dict[str, int]]):
         stock = sum([dct.get('qty') for dct in value])
-        value = stock
         return stock
 
     @validator('name', pre=True)
     def name_validator(cls, value: str):
-        value = 'Без размера' if not value else value
-        return value
+        return 'Без размера' if not value else value
 
 
 class WBJsonProductSchema(BaseModel):
