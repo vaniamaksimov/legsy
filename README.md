@@ -12,8 +12,15 @@
 ## Установка и запуск проекта
 
 1. Клонирование репозитория: `git clone git@github.com:vaniamaksimov/legsy.git`
-
-# TODO По мере выполнения расписать запуск через Docker-compose
+2. Переходим в папку с проектом командой `cd legsy`
+3. Выполняем команду `mv .env-example .env`
+4. Для разработки:
+    - Устанавливаем зависимости с помощью poetry https://python-poetry.org/docs/basic-usage/
+5. Для старта приложения:
+    - Удаляем из .env файла DATABASE_URL
+    - Переходим в папку infra `cd infra`
+    - Выполняем команду `docker compose up`
+    - Документация доступна по адресу http://localhost:8000/docs#/
 
 
 ## Технологии
