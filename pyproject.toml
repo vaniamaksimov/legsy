@@ -33,6 +33,6 @@ norecursedirs = [".venv", "alembic",]
 python_files = ["test_*.py",]
 python_functions = ["test_*",]
 pythonpath = [".", "legsy",]
-addopts = ["-vv", "-p", "no:cacheprovider", "--tb=line"]
+addopts = ["-vv", "-p", "no:cacheprovider", "--tb=long"]
 asyncio_mode = "auto"
 disable_test_id_escaping_and_forfeit_all_rights_to_community_support = "True"
